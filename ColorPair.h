@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include "ColorPair.h"
 
 #define MAX_COLORPAIR_NAME_CHARS  16
 
