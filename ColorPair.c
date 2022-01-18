@@ -1,4 +1,5 @@
-#include "ColorPair.h"
+#include "TestNumtoColorPair.h"
+#include "TestColorPairToNum.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
