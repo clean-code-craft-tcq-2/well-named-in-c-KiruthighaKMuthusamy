@@ -1,4 +1,4 @@
-#include "TestNumtoColorPair.h"
+#include "ColorPair.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
