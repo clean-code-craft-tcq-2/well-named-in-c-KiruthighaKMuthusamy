@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-
+#include "TestNumtoColorPair.h"
+#include "TestColorPairToNum.h"
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
