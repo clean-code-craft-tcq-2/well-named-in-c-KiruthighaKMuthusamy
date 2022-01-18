@@ -1,11 +1,9 @@
 #include "ColorPair.h"
 
-void ColorNamesToString(const ColorPair* colorPair, char* MajorColorbuffer, char* MajorColorbuffer)
+void ColorNamesToString(const ColorPair* colorPair, char* MajorColorbuffer, char* MinorColorNames)
  {
-    sprintf(MajorColorbuffer, "%s",
-        MajorColorNames[colorPair->majorColor]);
-	sprintf(MajorColorbuffer, "%s",
-        MinorColorNames[colorPair->minorColor]);
+    sprintf(MajorColorbuffer, "%s", MajorColorNames[colorPair->majorColor]);
+    sprintf(MajorColorbuffer, "%s", MinorColorNames[colorPair->minorColor]);
  }
 
 
