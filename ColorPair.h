@@ -12,13 +12,8 @@ typedef struct {
 } ColorPair;
 
 
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
+const char* MajorColorNames[] ;
+const char* MinorColorNames[] ;
 
 int numberOfMajorColors;
 int numberOfMinorColors;
